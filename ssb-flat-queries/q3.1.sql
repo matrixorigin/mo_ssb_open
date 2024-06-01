@@ -14,7 +14,7 @@
 -- KIND, either express or implied.  See the License for the
 -- specific language governing permissions and limitations
 -- under the License.
---Q3.1
+-- Q3.1
 SELECT
     C_NATION,
     S_NATION, year(LO_ORDERDATE) AS YEAR,

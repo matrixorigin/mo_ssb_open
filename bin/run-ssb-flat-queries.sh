@@ -29,7 +29,7 @@ ROOT=$(
 )
 
 CURDIR="${ROOT}"
-QUERIES_DIR="${CURDIR}/../ssb-flat-queries"
+QUERIES_DIR=${CURDIR}/../ssb-flat-queries
 
 usage() {
     echo "

@@ -14,7 +14,7 @@
 -- KIND, either express or implied.  See the License for the
 -- specific language governing permissions and limitations
 -- under the License.
---Q3.4
+-- Q3.4
 SELECT
     C_CITY,
     S_CITY, year(LO_ORDERDATE) AS YEAR,

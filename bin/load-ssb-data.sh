@@ -96,7 +96,7 @@ fi
 run_sql() {
     sql="$*"
     echo "${sql}"
-    mysql -h"${HOST}" -u"${USER}" -P"${PORT}" -D"${DB}" -e "$@"
+    mysql -h"${HOST}" -u"${USER}" -P"${PORT}" -D"${DB}" -e "$@" --local-infile
 }
 
 load_lineitem_flat() {

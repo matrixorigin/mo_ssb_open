@@ -14,7 +14,7 @@
 -- KIND, either express or implied.  See the License for the
 -- specific language governing permissions and limitations
 -- under the License.
---Q4.1
+-- Q4.1
 SELECT year(LO_ORDERDATE) AS YEAR,
     C_NATION,
     SUM(LO_REVENUE - LO_SUPPLYCOST) AS profit
